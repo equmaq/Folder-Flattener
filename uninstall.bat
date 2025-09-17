@@ -1,4 +1,4 @@
-﻿rm -r %appdata%\folderFlattener
+﻿rm -r "C:\Program Files\folderFlattener"
 
 regedit.exe /s "%~dp0undoregconf.reg"
 
