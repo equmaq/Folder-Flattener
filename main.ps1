@@ -63,7 +63,7 @@ foreach ($file in $files) {
     )
 
     foreach ($string in $strings) {
-        $filename = $filename.Replace("${string}_", "")
+        $filename = $filename.Replace("${string}", "")
     }
 
     $destination = Join-Path -Path $PWD -ChildPath $filename
